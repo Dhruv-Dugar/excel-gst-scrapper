@@ -72,5 +72,5 @@ if file is not None:
 
     # display the required data
     st.write(required_data)
-    with open('required_data.xlsx', 'rb') as f:
-        st.download_button('Download final file', f)
+    # with open('required_data.xlsx', 'rb') as f:
+    #     st.download_button('Download final file', f)
